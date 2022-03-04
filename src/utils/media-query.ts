@@ -1,5 +1,5 @@
 const matchesMediaQuery = (query: string) => {
-    if ('window' in globalThis) {
+    if (typeof window !== 'undefined' && 'matchMedia' in window) {
         return Boolean(window.matchMedia(query).matches);
     }
     return false;
