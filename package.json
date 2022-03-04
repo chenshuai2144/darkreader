@@ -1,6 +1,6 @@
 {
   "name": "@umijs/ssr-darkreader",
-  "version": "4.9.44",
+  "version": "4.9.45",
   "description": "Dark mode for every website",
   "scripts": {
     "api": "node tasks/build.js --api",
@@ -28,12 +28,12 @@
   "main": "darkreader.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/darkreader/darkreader.git"
+    "url": "https://github.com/chenshuai2144/darkreader.git"
   },
   "author": "Alexander Shutau <darkreaderapp@gmail.com> (https://darkreader.org/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/darkreader/darkreader/issues"
+    "url": "https://github.com/chenshuai2144/darkreader/issues"
   },
   "keywords": [
     "dark-theme",
